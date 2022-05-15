@@ -1,3 +1,4 @@
+
 #Take input of 2 numbers from the user
 num_1 = input('Please enter your first number: ')
 num_2 = input('Please enter your second number: ')
