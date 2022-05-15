@@ -1,0 +1,77 @@
+𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻 1:
+Suppose you are building an isosceles right angle pyramid using a number of 
+bricks given by the user. After building the pyramid you will have to 
+return the unused brick to the user.
+Write a python program to solve this problem. (“#” representing brick)
+[Hint: 1+2+3+...+n = User input - Remaining bricks]
+
+=============================================================
+Sample Input 1:
+15
+Output 1:
+#
+##
+###
+####
+#####
+Remaining bricks: 0
+=============================================================
+Sample Input 2:
+35
+Output 2:
+#
+##
+###
+####
+#####
+######
+#######
+Remaining bricks: 7
+=============================================================
+Sample Input 3:
+26
+Output 3:
+#
+##
+###
+####
+#####
+######
+Remaining bricks: 5
+
+𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻 2:
+Write a python program that takes a string with multiple numbers separated 
+by commas as an input. The string contains experimental length values in 
+repeated experiments. Make a list from the string. Then sorts the list and 
+only keeps the readings that have a maximum difference of 20 between 
+successive elements in the sorted list and removes other elements from the 
+list. Finally, it calculates the average of the remaining list items and 
+prints the average. [You can use builtin .sort() function to sort the list]
+  ====================================================
+Sample Input 1:
+90, 50, 30, 15, 10, 5
+
+Sample Output 1:
+Sorted list: [5, 10, 15, 30, 50, 90]
+Criteria pass: [5, 10, 15, 30, 50]
+Average: 22.0
+
+Explanation 1:
+First sort the list in ascending order – [5, 10, 15, 30, 50, 90].
+The difference between 5 and 10 is 5. So 5 and 10 are kept on the list.
+The difference between 10 and 15 is 5. So 15 is kept in the list.
+The difference between 15 and 30 is 15 which is less than 20 so kept in the 
+list.
+The difference between 30 and 50 is 20 which is equal to 20 so kept in the 
+list.
+The difference between 50 and 90 is 50 which is greater than 20 so 90 is 
+removed from the list.
+Thus remaining sorted list – [5, 10, 15, 30, 50] and the average is 22
+==========================================================
+Sample Input 2 :
+33, 180, 40, 50, 6
+
+Sample Output 2:
+Sorted list: [6, 33, 40, 50, 180]
+Criteria pass: [33, 40, 50]
+Average: 41.0

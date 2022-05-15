@@ -1,0 +1,30 @@
+𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻:
+Write a python program that takes a string as an input from the user and 
+checks if there are any groups of THREE consecutive vowels. The input 
+string will be a random combination of small letter and capital letter 
+characters. Then replace all the three consecutive vowels with “#” 
+character. So, the presence of such a group is ensured.
+=========================================================
+
+Sample Input1:
+FJAUjsioAstu
+
+Sample Output 1
+FJAUjs###stu
+
+Explanation 1:
+Since ‘i’, ’o’ and ‘A’ are three vowels and they appear in the input string 
+consecutively. So all those three characters are replaced by ‘#’ character 
+in the output.
+=========================================================
+Sample Input2:
+asoUiBPqteeastW
+
+Sample Output 2
+as###BPqt###stW
+
+Explanation 2:
+Here, ‘o’, ‘U’ and ‘i’ form a group of three consecutive vowels and again 
+‘e’, ’e’, and ‘a’ form another such group. So all of them are replaced by 
+‘#’ character. But the single ‘a’ at the very beginning is not replaced 
+since it is not included in any group of three.

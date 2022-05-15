@@ -1,0 +1,33 @@
+𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻:
+Write a Python function that will take a list of integer values as the 
+parameter and transform those values using normalization. Finally, return 
+the normalized list.
+
+The formula of normalization for this task is given below:
+new value = (current value - minimum of all values) / (maximum of all 
+values - minimum of all values)
+
+[You do not need to take the list as user input. But your program should 
+work for any list of integers passed as the parameter. Additionally, you 
+can not use the built-in max() and min() functions to find the maximum and 
+minimum of all values respectively.]
+
+Function Call 1:
+normalize([10, 4, 23, 49, 36])
+
+Sample Output 1:
+[0.13333333333333333, 0.0, 0.4222222222222222, 1.0, 0.7111111111111111]
+
+Explanation: In the given list, the maximum value is 49 and the minimum 
+value is 4. If we apply the above formula for each value in the given list, 
+we will get the desired output list.
+---------------------------------------------------------------------------------
+Function Call 2:
+normalize([6, 67, 21, 37, 54])
+
+Sample Output 2:
+[0.0, 1.0, 0.2459016393442623, 0.5081967213114754, 0.7868852459016393]
+
+Explanation: In the given list, the maximum value is 67 and the minimum 
+value is 6. If we apply the above formula for each value in the given list, 
+we will get the desired output list.

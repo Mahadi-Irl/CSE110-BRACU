@@ -1,0 +1,29 @@
+𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻:
+Take an input as given below where some innings’ score of a cricket player 
+is followed by his name. Please note that you have to take the input as the 
+given format and not in any other way.
+Babar:56,86,56;Kohli:78,55;Sakib:45,67,89,40.
+Your task is to make a dictionary where the player’s name will be the key 
+and the average score of the player will be the value.
+
+Sample Input 1:
+Babar:56,86,56;Kohli:78,55;Sakib:45,67,89,40.
+
+Sample Output 1:
+{'Babar': 66.0, 'Kohli': 66.5, 'Sakib': 60.25}
+
+Explanation 1:
+The average of Babar’s 3 innings’ score is: (56+86+56)/3=66.0
+The average of Kohli’s 3 innings’ score is: (78+55)/2=66.5
+The average of Sakib’s 3 innings’ score is: (45+67+89+40)/4=60.25
+
+Sample Input 2:
+Rezwan:70,88,90;Rohit:55,66,29;Tamim:40,90,32,66.
+
+Sample Output 2:
+{'Rezwan': 82.66666666666667, 'Rohit': 50.0, 'Tamim': 57.0}
+
+Explanation 2:
+The average of Babar’s 3 innings’ score is: (70+88+90)/3=82.67
+The average of Kohli’s 3 innings’ score is: (55+66+29)/3=50.0
+The average of Sakib’s 3 innings’ score is: (40+90+32+66)/4=57.0
