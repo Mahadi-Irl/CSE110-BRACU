@@ -1,5 +1,8 @@
 # CSE110: Programming Language I \[Fall - 2021\]
 
+
+**Description:** CSE110: Programming Language I gives an overview of basic operations, data types, operators, decision-making, and iterations. Advanced topics like list, tuple, dictionary, classes, and objects are also introduced. Students also learn to build and test small computer programs using an appropriate computer programming language. This course is taught using Python 3.
+
 > Solutions for the BRAC University Course - CSE110 Lab Assignments \[Fall - 2021\].
 > 
 > Check the `.ipynb` files to get all the solutions of an assignment in a single file.
