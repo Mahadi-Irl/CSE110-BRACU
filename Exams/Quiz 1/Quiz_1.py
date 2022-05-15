@@ -5,7 +5,7 @@
 num = int(input('Please enter a number from 10 to 20 : '))
 
 # set conditions
-7
+
 y = num
 
 if num >= 10 and num <= 20 :
